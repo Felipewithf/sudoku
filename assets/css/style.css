@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+#c3, #c6{
+    margin-right: 2px;
+}
+
+[row="3"], [row="6"]{
+    margin-bottom: 2px;
+}
+
+[static="true"]>img{
+    opacity: 65%;
+}
+
+.completeNumber>img{
+    visibility: hidden;
+}
+.completeNumber{
+    opacity: 60%;
+}
+
+#sudoBoard{
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul{
+    display: inline-block;
+    width: fit-content;
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid gray;
+    background-color: aliceblue;
+}
+
+.issue{
+    background-color: pink;
+}
+
+#sudoBoard li img{
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    display: inline;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+
+#numberSelection{
+    list-style-type: none;
+    
+}
+
+#numberSelection li{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    display: inline-block;
+    
+}
+
+#numberSelection img{
+    width: 30px;
+    height: 30px;
+}
