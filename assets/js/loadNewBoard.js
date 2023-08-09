@@ -17,7 +17,7 @@ function startingBoardValue(){
     let randomNumber = Math.floor(Math.random() * 10);
     // console.log(`Board number: J_${randomNumber}`);
 
-    return tenMediumBoards[9];
+    return tenMediumBoards[randomNumber];
 }
 
 //  Fetch new boards but takes awhile to render, issues finding medium boards
