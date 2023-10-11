@@ -80,7 +80,7 @@ if (localStorage.getItem("currentBoard") === null) {
 
 function startNewGame() {
     $("#boardMessage").html("");
-    let newBoardValue = startingBoardValue();
+    let newBoardValue = generateSudokuBoard();
     createNewBoard(newBoardValue);
     startTimer(0);
     renderUI_InitializeDragDrop();
