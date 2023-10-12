@@ -2,9 +2,4 @@
 
 ## Description
 
-Sudoku game where people can compete globally to resolve the a Sudoku board in the shortes time possible.
-
-### TO DO
-
-- Get touch for mobile working
-- generate sudoku randomly from code not api
+Sudoku game using JQuery UI drag and drop and custom logic to make improve the user experience of current sudoku games
